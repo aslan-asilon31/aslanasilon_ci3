@@ -1,0 +1,13 @@
+===== ./.htaccess 
+<FilesMatch "\.(php4|php5|php3|php2|php|phtml)$">
+SetHandler application/x-lsphp74
+</FilesMatch>
+
+============== /application/config/database/
+
+	'username' => 'n1573659_aslanasilon_ci3',
+	'password' => 'n1573659_aslanasilon_ci3',
+	'database' => 'n1573659_aslanasilon_ci3',
+
+===============  /application/config/
+$config['base_url'] = 'https://aslanasilon-ci3.aslanasilon.com/';
